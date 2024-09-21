@@ -12,6 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        ms: "390px",
+        mt: "560px",
+      },
+      content: {
+        bg_Line: 'url("../app/image/icon/bg_lines.svg")',
+      },
     },
   },
   plugins: [],
