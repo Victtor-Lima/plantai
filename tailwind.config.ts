@@ -20,12 +20,20 @@ const config: Config = {
         foreground: "var(--foreground)",
         orange: "#f1bc9b",
         grayBlue: "#31374D",
+        clear_shell: "#FEECDC",
+        panache: "#DEFFC5",
       },
       fontSize: {
         "40px": "3rem",
       },
       content: {
         arrow: 'url("../app/image/icon/icon_arrow.svg")',
+        sun: 'url("../app/image/icon/icon_sun.svg")',
+        watering: 'url("../app/image/icon/icon_watering.svg")',
+        plantsize: 'url("../app/image/icon/icon_plantsize.svg")',
+      },
+      gridTemplateColumns: {
+        aspects: "max-content auto",
       },
       screens: {
         ms: "390px",
