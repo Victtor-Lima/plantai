@@ -1,3 +1,9 @@
+import IntroductoryContent from "@/components/IntroductoryContent";
+
 export default function Home() {
-  return <section>Home</section>;
+  return (
+    <main>
+      <IntroductoryContent />
+    </main>
+  );
 }
