@@ -8,16 +8,28 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      width: {
+        "480": "30rem",
+      },
+      fontFamily: {
+        merriweather_sans: ["var(--font-merriweather-sans)", "sans-serif"],
+        madimi_one: ["var(--font-madimi-one)", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        orange: "#f1bc9b",
+        grayBlue: "#31374D",
+      },
+      fontSize: {
+        "40px": "3rem",
+      },
+      content: {
+        arrow: 'url("../app/image/icon/icon_arrow.svg")',
       },
       screens: {
         ms: "390px",
         mt: "560px",
-      },
-      content: {
-        bg_Line: 'url("../app/image/icon/bg_lines.svg")',
       },
     },
   },
