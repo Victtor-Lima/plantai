@@ -31,9 +31,13 @@ const config: Config = {
         sun: 'url("../app/image/icon/icon_sun.svg")',
         watering: 'url("../app/image/icon/icon_watering.svg")',
         plantsize: 'url("../app/image/icon/icon_plantsize.svg")',
+        imglink1: 'url("../app/image/img_link1.svg")',
+        imglink2: 'url("../app/image/img_link2.svg")',
+        imglink3: 'url("../app/image/img_link3.svg")',
+        imglink4: 'url("../app/image/img_link4.svg")',
       },
       gridTemplateColumns: {
-        aspects: "max-content auto",
+        col2: "max-content auto",
       },
       screens: {
         ms: "390px",
