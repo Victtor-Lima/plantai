@@ -30,6 +30,10 @@ img {
   display: block;
 }
 
+a {
+  display: block;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

@@ -4,6 +4,7 @@ import play from "../app/image/icon/icon_play.svg";
 import p_plant from "../app/image/p_plant.svg";
 import Image from "next/image";
 import Aspects from "./Aspects";
+import LinkSection from "./LinkSection";
 
 const IntroductoryContent = () => {
   return (
@@ -37,15 +38,17 @@ const IntroductoryContent = () => {
             Assista ao vídeo
           </button>
         </div>
-        <div>
+        <div className="grid grid-cols-2 items-start">
           <Image
             src={p_plant}
             width={361}
             height={465}
             alt="imagem de um exemplar da Dieffenbachia Seguine ou Comigo-ninguém-pode"
-          ></Image>
+            className="justify-self-center"
+          />
           <Aspects />
         </div>
+        <LinkSection />
       </section>
     </>
   );
