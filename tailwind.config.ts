@@ -10,6 +10,13 @@ const config: Config = {
     extend: {
       width: {
         "480": "30rem",
+        "600": "37.5rem",
+      },
+      maxWidth: {
+        sec: "93.75rem",
+      },
+      margin: {
+        "m-centro": "0 auto",
       },
       fontFamily: {
         merriweather_sans: ["var(--font-merriweather-sans)", "sans-serif"],
@@ -31,6 +38,8 @@ const config: Config = {
         sun: 'url("../app/image/icon/icon_sun.svg")',
         watering: 'url("../app/image/icon/icon_watering.svg")',
         plantsize: 'url("../app/image/icon/icon_plantsize.svg")',
+        arrowSpiral1: 'url("../app/image/icon/arrow_spiral1.svg")',
+        arrowSpiral2: 'url("../app/image/icon/arrow_spiral2.svg")',
         imglink1: 'url("../app/image/img_link1.svg")',
         imglink2: 'url("../app/image/img_link2.svg")',
         imglink3: 'url("../app/image/img_link3.svg")',
@@ -38,6 +47,7 @@ const config: Config = {
       },
       gridTemplateColumns: {
         col2: "max-content auto",
+        "col2-1": "2fr 1fr",
       },
       screens: {
         ms: "390px",
