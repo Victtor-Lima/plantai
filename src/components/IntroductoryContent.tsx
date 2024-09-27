@@ -9,15 +9,15 @@ import LinkSection from "./LinkSection";
 const IntroductoryContent = () => {
   return (
     <>
-      <section className="grid grid-cols-col2 gap-x-28 gap-y-14 max-w-sec m-m-centro">
-        <div className="w-480">
+      <section className="grid grid-cols-col2 gap-x-20 mst:gap-x-28 msto:gap-y-12 max-w-sec m-m-centro">
+        <div className="w-420 msto:w-480">
           <h2 className="font-merriweather_sans font-bold text-xl text-orange mt-20">
             O MELHOR PARA SUAS PLANTAS
           </h2>
-          <h1 className="font-merriweather_sans font-bold text-40px text-grayBlue mb-7">
+          <h1 className="font-merriweather_sans font-bold text-40px mst:text-48px text-grayBlue mb-3 msto:mb-7">
             Ajudamos você a ter um lindo e saudável jardim.
           </h1>
-          <p className="font-merriweather_sans font-light text-lg text-grayBlue mb-7">
+          <p className="font-merriweather_sans font-light text-lg text-grayBlue mb-4 msto:mb-7">
             Aprenda rapidinho a cuidar das suas verdinhas!
           </p>
           <Link
@@ -38,13 +38,11 @@ const IntroductoryContent = () => {
             Assista ao vídeo
           </button>
         </div>
-        <div className="grid grid-cols-col2-1 items-start">
+        <div className="grid grid-rows-row2 msto:grid-cols-col2-1 items-start">
           <Image
             src={p_plant}
-            width={400}
-            height={515}
             alt="imagem de um exemplar da Dieffenbachia Seguine ou Comigo-ninguém-pode"
-            className="justify-self-center self-center mt-1.5 relative right-8"
+            className="justify-self-center self-center msto:w-400 msto:h-500 mt-1.5 relative msto:right-8"
           />
           <Aspects />
         </div>

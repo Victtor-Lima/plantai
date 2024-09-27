@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       width: {
+        "400": "25rem",
+        "420": "26.25rem",
         "480": "30rem",
         "600": "37.5rem",
+      },
+      height: {
+        "500": "32.18rem",
       },
       maxWidth: {
         sec: "93.75rem",
@@ -31,7 +36,8 @@ const config: Config = {
         panache: "#DEFFC5",
       },
       fontSize: {
-        "40px": "3rem",
+        "48px": "3rem",
+        "40px": "2.75rem",
       },
       content: {
         arrow: 'url("../app/image/icon/icon_arrow.svg")',
@@ -49,9 +55,17 @@ const config: Config = {
         col2: "max-content auto",
         "col2-1": "2fr 1fr",
       },
+      gridTemplateRows: {
+        row2: "max-content auto",
+      },
       screens: {
         ms: "390px",
         mt: "560px",
+        msto: "1220px",
+        mst: "1400px",
+      },
+      inset: {
+        full2: "150%",
       },
     },
   },
