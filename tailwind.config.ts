@@ -36,8 +36,19 @@ const config: Config = {
         panache: "#DEFFC5",
       },
       fontSize: {
-        "48px": "3rem",
-        "40px": "2.75rem",
+        "34px": [
+          "1.875rem",
+          {
+            lineHeight: "2.5rem",
+          },
+        ],
+        "36px": ["2.25rem", { lineHeight: "3rem" }],
+        "48px": [
+          "3.2rem",
+          {
+            lineHeight: "4rem",
+          },
+        ],
       },
       content: {
         arrow: 'url("../app/image/icon/icon_arrow.svg")',
@@ -53,14 +64,15 @@ const config: Config = {
       },
       gridTemplateColumns: {
         col2: "max-content auto",
-        "col2-1": "2fr 1fr",
+        col2a: "2fr 1fr",
+        col2b: "1.5fr 1fr",
       },
       gridTemplateRows: {
         row2: "max-content auto",
       },
       screens: {
         ms: "390px",
-        mt: "560px",
+        mt: "450px",
         msto: "1220px",
         mst: "1400px",
       },

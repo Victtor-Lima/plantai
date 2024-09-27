@@ -12,7 +12,7 @@ const Header = () => {
         width={117}
         height={24}
         alt="Plantai - logo do site"
-        priority
+        priority={true}
         className="ms:col-start-2 ms:place-self-center"
       />
       <button className="place-self-end">
