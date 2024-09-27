@@ -35,7 +35,7 @@ export default function RootLayout({
       lang="pt-BR"
       className={` ${merriweather_sans.variable} ${madimi_one.variable}`}
     >
-      <body className=" ms:mx-5 mt:mx-8 lg:mx-10">
+      <body className="md:mx-4 mt:mx-8 lg:mx-10">
         <Header />
         {children}
       </body>
