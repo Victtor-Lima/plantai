@@ -82,5 +82,6 @@ const config: Config = {
     },
   },
   plugins: [],
+  autoprefixer: [],
 };
 export default config;

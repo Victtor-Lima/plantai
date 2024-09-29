@@ -21,7 +21,7 @@ const Header = () => {
           width={26}
           height={26}
           alt="Ícone do botão chat"
-          className=" ms:w-7 h-7 sm:w-8 h-8"
+          className="h-auto ms:w-7 h-7 sm:w-8 h-8"
         />
       </button>
     </header>
