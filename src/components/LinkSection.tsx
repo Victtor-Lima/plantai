@@ -3,7 +3,7 @@ import React from "react";
 
 const LinkSection = () => {
   return (
-    <ul className="grid col-span-full	order-1 grid-cols-2 md:col-auto md:order-none  mt:gap-x-3 md:gap-x-2 lg:gap-x-6 mst:gap-x-24 mst:gap-y-9 gap-y-3 font-merriweather_sans  self-end">
+    <ul className="grid col-span-full	order-1 mt:grid-cols-2 md:col-auto md:order-none  mt:gap-x-3 md:gap-x-2 lg:gap-x-6 mst:gap-x-24 mst:gap-y-9 gap-y-3 font-merriweather_sans  self-end">
       <li>
         <Link
           href="#"
