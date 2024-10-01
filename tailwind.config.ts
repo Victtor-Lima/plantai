@@ -34,6 +34,7 @@ const config: Config = {
         grayBlue: "#31374D",
         clear_shell: "#FEECDC",
         panache: "#DEFFC5",
+        orangeP: "#FFA46D",
       },
       fontSize: {
         "34px": [
@@ -43,12 +44,16 @@ const config: Config = {
           },
         ],
         "36px": ["2.25rem", { lineHeight: "3rem" }],
+        "40px": ["2.5rem", { lineHeight: "3rem" }],
         "48px": [
           "3.2rem",
           {
             lineHeight: "4rem",
           },
         ],
+      },
+      borderRadius: {
+        bp: "50px",
       },
       content: {
         arrow: 'url("../app/image/icon/icon_arrow.svg")',
