@@ -62,6 +62,7 @@ const config: Config = {
         plantsize: 'url("../app/image/icon/icon_plantsize.svg")',
         arrowSpiral1: 'url("../app/image/icon/arrow_spiral1.svg")',
         arrowSpiral2: 'url("../app/image/icon/arrow_spiral2.svg")',
+        regGreen: 'url("../app/image/icon/icon_regGreen.svg")',
         imglink1: 'url("../app/image/img_link1.svg")',
         imglink2: 'url("../app/image/img_link2.svg")',
         imglink3: 'url("../app/image/img_link3.svg")',
