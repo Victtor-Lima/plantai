@@ -1,4 +1,5 @@
 import GeneralInformation from "@/components/GeneralInformation";
+import HowToCultivate from "@/components/HowToCultivate";
 import IntroductoryContent from "@/components/IntroductoryContent";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <IntroductoryContent />
       <GeneralInformation />
+      <HowToCultivate />
     </main>
   );
 }
