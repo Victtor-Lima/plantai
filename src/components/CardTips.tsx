@@ -7,7 +7,7 @@ const CardTips = ({ categ }: { categ: string }) => {
       {contentArray.categories[categ].map((item) => (
         <li
           key={`${item[0]}`}
-          className="flex flex-col items-start  gap-y-2 w-72 bg-[#6AAC96] p-4 rounded-3xl"
+          className="flex flex-col items-start gap-y-2 w-56 mt:w-72 bg-[#6AAC96] p-4 rounded-3xl"
         >
           <h3 className="font-madimi_one text-xl">{item[1]}</h3>
           {item[2].map((parag, index) => (
