@@ -72,27 +72,27 @@ export const contentArray: TypeContent = {
         "card8",
         "Escolha do Local",
         [
-          "Coloque as suculentas em áreas bem iluminadas, preferencialmente onde recebam luz solar direta por algumas horas do dia, como perto de janelas ou varandas.",
-          "Evite deixá-las em locais completamente sombreados, pois isso pode prejudicar seu crescimento.",
-          "Garanta boa ventilação, mas evite locais com correntes de ar excessivamente fortes.",
+          "Coloque as suculentas em áreas bem iluminadas com algumas horas de luz solar direta, como perto de janelas.",
+          "Evite locais totalmente sombreados para não prejudicar o crescimento.",
+          "Mantenha boa ventilação, mas sem correntes de ar muito fortes.",
         ],
       ],
       [
         "card9",
         "Rega",
         [
-          "Regue apenas quando o solo estiver completamente seco ao toque. As suculentas armazenam água em suas folhas, por isso são mais tolerantes à seca.",
-          "Evite deixar água acumulada no fundo do vaso, pois isso pode causar apodrecimento das raízes.",
-          "No inverno, reduza a rega, já que as suculentas entram em um período de dormência e precisam de menos água.",
+          "Regue apenas quando o solo estiver seco, pois suculentas armazenam água nas folhas.",
+          "Evite água acumulada no vaso para não apodrecer as raízes.",
+          "No inverno, regue menos, pois elas entram em dormência e precisam de menos água.",
         ],
       ],
       [
         "card10",
         "Umidade",
         [
-          "Suculentas preferem ambientes secos e não exigem pulverização de água.",
-          "Ambientes com alta umidade podem favorecer o surgimento de fungos, por isso é melhor mantê-las em locais arejados e secos.",
-          "Evite ambientes muito secos, especialmente com ar-condicionado.",
+          "Suculentas preferem ambientes secos e não precisam de pulverização.",
+          "Mantenha-as em locais arejados para evitar fungos.",
+          "Evite ambientes extremamente secos, como com ar-condicionado.",
         ],
       ],
       [
@@ -123,7 +123,7 @@ export const contentArray: TypeContent = {
         "card14",
         "Controle de Pragas",
         [
-          "Verifique regularmente se há sinais de pragas, como cochonilhas ou pulgões.",
+          "Verifique regularmente sinais de pragas, como cochonilhas.",
           "Use soluções naturais, como uma mistura de água e detergente neutro.",
           "Ou aplique óleo de neem para controlar infestações sem prejudicar a planta.",
         ],
