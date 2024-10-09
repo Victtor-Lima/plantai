@@ -14,8 +14,8 @@ const BtnTypePlant = ({
 }) => {
   return (
     <button
-      id={`${categ}`}
-      className={`inline-block font-merriweather_sans font-bold text-lg mb-3 mr-2 px-4 py-2 md:px-8 md:py-3 rounded-full md:mr-3 lg:mr-4
+      id={`btn${categ}`}
+      className={`inline-block font-merriweather_sans font-bold mt:text-lg mb-3 mr-2 px-4 py-2 md:px-8 md:py-3 rounded-full md:mr-3 lg:mr-4
       ${bg}
       `}
       onClick={() => chosenTip(categ)}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/Header";
 import { Merriweather_Sans, Madimi_One } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const merriweather_sans = Merriweather_Sans({
   weight: ["300", "400", "700"],
@@ -35,9 +36,10 @@ export default function RootLayout({
       lang="pt-BR"
       className={` ${merriweather_sans.variable} ${madimi_one.variable}`}
     >
-      <body className="md:mx-4 lg:mx-10">
+      <body className="">
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

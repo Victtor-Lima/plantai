@@ -9,7 +9,7 @@ import LinkSection from "./LinkSection";
 const IntroductoryContent = () => {
   return (
     <>
-      <section className="grid mt:grid-cols-col2b md:grid-cols-2 mt:auto-cols-max gap-y-6 mt:gap-y-8 md:gap-0 lg:gap-y-12 msto:grid-cols-col2 mt:gap-x-2 md:gap-x-7 msto:gap-x-20 mst:gap-x- max-w-sec m-m-centro mb-12 mt:mb-20">
+      <section className="grid mt:grid-cols-col2b md:grid-cols-2 mt:auto-cols-max gap-y-6 mt:gap-y-8 md:gap-0 lg:gap-y-12 msto:grid-cols-col2 mt:gap-x-2 md:gap-x-7 msto:gap-x-20 mst:gap-x- max-w-sec m-m-centro mb-12 mt:mb-20 px-4 lg:px-10">
         <div className="mt:w-full msto:w-420 msto:w-480">
           <h2 className="font-merriweather_sans font-bold text-sm md:text-base lg:text-xl text-orange mt-8 md:mt-20 md:mb-2">
             O MELHOR PARA SUAS PLANTAS

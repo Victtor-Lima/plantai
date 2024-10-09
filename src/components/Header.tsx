@@ -6,7 +6,7 @@ import "../app/globals.css";
 
 const Header = () => {
   return (
-    <header className="grid grid-cols-2 items-center py-3 border-b-2 ms:grid-cols-3 ms:py-6 sm:py-8">
+    <header className="grid grid-cols-2 items-center py-3 border-b-2 ms:grid-cols-3 ms:py-6 sm:py-8 mx-4 lg:mx-10">
       <Image
         src={logo}
         width={117}
