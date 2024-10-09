@@ -6,7 +6,7 @@ const CardTips = ({ categ, display }: { categ: string; display: string }) => {
   return (
     <ul
       id={`${categ}`}
-      className={`${categ} mb-20 ${display} grid-flow-col gap-x-4 overflow-x-auto`}
+      className={`${categ} ${display} grid-flow-col gap-x-4 overflow-x-auto`}
     >
       {contentArray.categories[categ].map((tip) => (
         <li
