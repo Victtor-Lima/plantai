@@ -6,7 +6,7 @@ import img3 from "../app/image/img_nutritionPruning.svg";
 
 const GeneralInformation = () => {
   return (
-    <section className="grid pt-12 lg:pt-20 border-t-2 justify-items-center gap-y-12 mt:gap-y-16 font-merriweather_sans mb-16 md:mb-24">
+    <section className="grid pt-12 lg:pt-20 border-t-2 justify-items-center gap-y-12 mt:gap-y-16 font-merriweather_sans pb-16 md:pb-24 mx-4 lg:mx-10 border-b-2">
       <h1 className="font-madimi_one text-2xl mt:text-[30px] md:text-36px lg:text-40px text-center text-grayBlue leading-normal pb-2 rounded-lg underline underline-offset-[12px] decoration-[#FFA46D]">
         Primeiros passos para começar bem com suas plantas
       </h1>
